@@ -15,6 +15,30 @@ npm install
 npm run start
 ```
 
+## Ruta en now
+https://platzistore.eessm01.now.sh
+
+Obtener todos los productos:
+https://platzistore.eessm01.now.sh/api/products
+
+Obtener un producto:
+https://platzistore.eessm01.now.sh/api/product/<productId>
+  
+Crear un nuevo producto:
+https://platzistore.eessm01.now.sh/api/create
+
+Actualizar producto:
+https://platzistore.eessm01.now.sh/api/update/<productId>
+
+Eliminar producto:
+https://platzistore.eessm01.now.sh/api/delete/<productId>
+
+
+## Ejecución del test
+```
+npm run test
+```
+
 ## Problema 1
 1. Utilizando el archivo `.env-example` realiza la configuración para tu archivo `.env`.
 2. Crear tu base de datos en MongoDBAtlas.
